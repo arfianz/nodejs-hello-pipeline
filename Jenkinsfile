@@ -11,7 +11,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("arfian/nodejs-hello")
+        app = docker.build("arfian/nodejs-hello-pipeline")
     }
 
     stage('Test image') {
